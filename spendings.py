@@ -10,8 +10,6 @@ wb = load_workbook(filename = "spendings.xlsx")
 ws = wb["Document"]
 daySinceSept4 = (date.today() - date(2022, 9, 4)).days
 
-
-
 r = 2
 tempSum = 0
 while True:
